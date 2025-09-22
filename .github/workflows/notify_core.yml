@@ -15,4 +15,4 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.CORE_REPO_PAT }}" \
             https://api.github.com/repos/commit-card/commit-card-core/dispatches \
-            -d '{"event_type":"sync-submodule","client_payload":{"name":"linkedin-mcp"}}'
+            -d '{"event_type":"sync-submodule","client_payload":{"name":"commit-card-github-tools"}}'
