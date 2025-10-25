@@ -3,8 +3,9 @@ name = "commit-card-github-tools"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
     "mcp>=1.13.1",
+    "pygithub>=2.8.1",
     "requests>=2.32.5",
 ]
